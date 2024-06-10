@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const WebSocket = require('ws');
+const path = require('path');
 
 const app = express();
 const port = 3000;
@@ -28,8 +29,4 @@ wss.on('connection', (ws) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
-
-module.exports = { wss };
+module.exports = app;
