@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1718050392513,
+    "title": "QUESTION 1: How to test a REST API?",
+    "body": "I want to test my REST API using Postman.",
+    "tags": [
+      "testing",
+      "API",
+      "Postman"
+    ],
+    "answers": [],
+    "comments": [],
+    "votes": 5
+  },
+  {
+    "id": 1718050414678,
+    "title": "QUESTION 2: How to test a REST API?",
+    "body": "I want to test my REST API using Postman.",
+    "tags": [
+      "testing",
+      "API",
+      "Postman"
+    ],
+    "answers": [],
+    "comments": [],
+    "votes": 0
+  },
+  {
+    "id": 1718050419398,
+    "title": "QUESTION 3: How to test a REST API?",
+    "body": "I want to test my REST API using Postman.",
+    "tags": [
+      "testing",
+      "API",
+      "Postman"
+    ],
+    "answers": [
+      {
+        "id": 1718050724265,
+        "body": "For question 3: You can use your brain.",
+        "comments": []
+      }
+    ],
+    "comments": [
+      {
+        "id": 1718050783707,
+        "body": "This is a helpful question."
+      }
+    ]
+  },
+  {
+    "id": 1718050424102,
+    "title": "Question 4: Edited",
+    "body": "I want to test my REST API using Postman.",
+    "tags": [
+      "testing",
+      "API",
+      "Postman"
+    ],
+    "answers": [
+      {
+        "id": 1718050621647,
+        "body": "For question 4: You can use Postman to send HTTP requests and verify the responses.",
+        "comments": [
+          {
+            "id": 1718051562439,
+            "body": "Great answer!"
+          },
+          {
+            "id": 1718051595166,
+            "body": "This did not work for me!"
+          }
+        ],
+        "votes": -1
+      },
+      {
+        "id": 1718050653369,
+        "body": "For question 4: Do you?",
+        "comments": [
+          {
+            "id": 1718051633182,
+            "body": "TNo.. just no"
+          }
+        ],
+        "votes": 2
+      }
+    ],
+    "comments": [
+      {
+        "id": 1718050822834,
+        "body": "Read documentation"
+      }
+    ],
+    "votes": 1
+  },
+  {
+    "id": 1718052466616,
+    "title": "QUESTION 5: How to test a REST API?",
+    "body": "I want to test my REST API using Postman.",
+    "tags": [
+      "testing",
+      "API",
+      "Postman"
+    ],
+    "answers": [],
+    "comments": []
+  },
+  {
+    "id": 1718055673835,
+    "title": "QUESTION 6: How to test a REST API?",
+    "body": "I want to test my REST API using Postman.",
+    "tags": [
+      "testing",
+      "API",
+      "Postman"
+    ],
+    "answers": [],
+    "comments": []
+  }
+]
