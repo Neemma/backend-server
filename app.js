@@ -7,19 +7,16 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-// Import routes
 const questionRoutes = require('./routes/questions');
 const answerRoutes = require('./routes/answers');
 const commentRoutes = require('./routes/comments');
 const voteRoutes = require('./routes/votes');
 
-// Use routes
 app.use('/questions', questionRoutes);
 app.use('/answers', answerRoutes);
 app.use('/comments', commentRoutes);
 app.use('/votes', voteRoutes);
 
-// WebSocket server setup
 const wss = new WebSocket.Server({ port: 8080 });
 wss.on('connection', (ws) => {
   console.log('Client connected');

@@ -9,7 +9,6 @@ const addQuestion = (req, res) => {
   writeJSONFile(questionsPath, questions);
   res.status(201).json(newQuestion);
 
-  // Notify via WebSocket
   wss.clients.forEach(client => {
     if (client.readyState === WebSocket.OPEN) {
       client.send(JSON.stringify({ type: 'new-question', data: newQuestion }));

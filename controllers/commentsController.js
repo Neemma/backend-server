@@ -11,7 +11,6 @@ const addCommentToQuestion = (req, res) => {
     writeJSONFile(questionsPath, questions);
     res.status(201).json(newComment);
 
-    // Notify via WebSocket
     wss.clients.forEach(client => {
       if (client.readyState === WebSocket.OPEN) {
         client.send(JSON.stringify({ type: 'new-comment', data: newComment }));
@@ -38,7 +37,6 @@ const addCommentToAnswer = (req, res) => {
     writeJSONFile(questionsPath, questions);
     res.status(201).json(newComment);
 
-    // Notify via WebSocket
     wss.clients.forEach(client => {
       if (client.readyState === WebSocket.OPEN) {
         client.send(JSON.stringify({ type: 'new-comment', data: newComment }));
